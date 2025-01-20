@@ -1,0 +1,17 @@
+{
+  "branch": "master",
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "angular",
+        "releaseRules": [
+          {"breaking": true, "release": "minor"},
+          {"tag": "Breaking", "release": "minor"}
+        ]
+      }
+    ],
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github"
+  ]
+}
