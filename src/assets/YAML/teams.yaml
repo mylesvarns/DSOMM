@@ -4,7 +4,10 @@
 #
 teams: ['WolfSquadron', 'ScrumTeamSix', 'Grommit']
 teamGroups:
-  App1: ['WolfSquadron', 'ScrumTeamSix']
-  App2: ['Grommit', 'WolfSquadron']
-  App3: ['WolfSquadron', 'ScrumTeamSix', 'Grommit']
+  Lab-Content: ['WolfSquadron', 'ScrumTeamSix']
+  Report-Generator: ['Grommit', 'WolfSquadron']
+  Assessment-Content: ['WolfSquadron', 'ScrumTeamSix', 'Grommit']
+  Crisis-Sim-Content: ['WolfSquadron', 'ScrumTeamSix', 'Grommit']
+  External-API: ['ScrumTeamSix','Grommit']
+  Framework-Ingest: ['ScrumTeamSix']
 

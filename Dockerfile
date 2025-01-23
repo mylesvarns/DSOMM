@@ -11,6 +11,7 @@ FROM wurstbrot/dsomm-yaml-generation as yaml
 
 FROM caddy
 ENV PORT=8080
+EXPOSE 8080
 
 COPY Caddyfile /etc/caddy/Caddyfile
 COPY --from=build ["/usr/src/app/dist/dsomm/", "/srv"]
