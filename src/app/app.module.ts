@@ -17,8 +17,6 @@ import { CircularHeatmapComponent } from './component/circular-heatmap/circular-
 import { MappingComponent } from './component/mapping/mapping.component';
 import { ReadmeToHtmlComponent } from './component/readme-to-html/readme-to-html.component';
 import { UsageComponent } from './component/usage/usage.component';
-import { UserdayComponent } from './component/userday/userday.component';
-import { AboutUsComponent } from './component/about-us/about-us.component';
 import { DependencyGraphComponent } from './component/dependency-graph/dependency-graph.component';
 import { TeamsComponent } from './component/teams/teams.component';
 import { ToStringValuePipe } from './pipe/to-string-value.pipe';
@@ -35,11 +33,9 @@ import { ToStringValuePipe } from './pipe/to-string-value.pipe';
     MappingComponent,
     ReadmeToHtmlComponent,
     UsageComponent,
-    AboutUsComponent,
     DependencyGraphComponent,
     TeamsComponent,
     ToStringValuePipe,
-    UserdayComponent,
   ],
   imports: [
     BrowserModule,

@@ -12,8 +12,6 @@ export class SidenavButtonsComponent {
     'Mappings',
     'Usage',
     'Teams',
-    'About Us',
-    'DSOMM User Day 2024',
   ];
   Icons: string[] = [
     'table_chart',
@@ -21,8 +19,6 @@ export class SidenavButtonsComponent {
     'timeline',
     'description',
     'people',
-    'info',
-    'school',
   ];
   Routing: string[] = [
     '/',
@@ -30,8 +26,6 @@ export class SidenavButtonsComponent {
     '/mapping',
     '/usage',
     '/teams',
-    '/about',
-    '/userday',
   ];
   constructor() {}
 }
