@@ -3,14 +3,14 @@ FROM node:18.7-alpine AS build
 WORKDIR /usr/src/app
 COPY package.json package-lock.json ./
 RUN apk add --upgrade python3 build-base \
- && npm install
+    && npm install
 COPY . .
 RUN npm run build
 
 FROM wurstbrot/dsomm-yaml-generation as yaml
 
 FROM caddy
-ENV PORT 8080
+ENV PORT=8080
 
 COPY Caddyfile /etc/caddy/Caddyfile
 COPY --from=build ["/usr/src/app/dist/dsomm/", "/srv"]

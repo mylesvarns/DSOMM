@@ -2,8 +2,9 @@
 #
 # Teams
 #
-teams: ['A', 'B', 'C']
+teams: ['WolfSquadron', 'ScrumTeamSix', 'Grommit']
 teamGroups:
-  AB: ['A', 'B']
-  BC: ['B', 'C']
-  AC: ['A', 'C']
+  App1: ['WolfSquadron', 'ScrumTeamSix']
+  App2: ['Grommit', 'WolfSquadron']
+  App3: ['WolfSquadron', 'ScrumTeamSix', 'Grommit']
+
